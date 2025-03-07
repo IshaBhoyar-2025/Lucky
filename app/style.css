@@ -1,0 +1,93 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+.toss {
+    text-align: center;
+    color: #0A1931;
+    font-weight: 800;
+    font-size: 65px;
+}
+
+.tossimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tossbutton {
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-color: blue;
+    border-color: white;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: rgb(251, 252, 255);
+
+}
+
+.imgdice {
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+}
+
+.throw {
+    color:#004D40;
+    font-size: 65px;
+    text-align: center
+}
+
+.button-group {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto
+}
+
+button {
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    background-color: blue;
+    border-color: white;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(251, 252, 255);
+}
+
+h2 {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding-bottom: 30px;
+}
+
+footer {
+    background-color: #b6adad;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
